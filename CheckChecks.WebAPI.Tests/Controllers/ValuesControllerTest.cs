@@ -13,7 +13,7 @@ namespace CheckChecks.WebAPI.Tests.Controllers
     [TestClass]
     public class ValuesControllerTest
     {
-        [TestMethod]
+        /*[TestMethod]
         public void Get()
         {
             // Arrange
@@ -76,6 +76,6 @@ namespace CheckChecks.WebAPI.Tests.Controllers
             controller.Delete(5);
 
             // Assert
-        }
+        }*/
     }
 }

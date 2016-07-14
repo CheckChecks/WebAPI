@@ -19,7 +19,7 @@ using CheckChecks.WebAPI.Results;
 
 namespace CheckChecks.WebAPI.Controllers
 {
-    [Authorize]
+    /*[Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
@@ -490,5 +490,5 @@ namespace CheckChecks.WebAPI.Controllers
         }
 
         #endregion
-    }
+    }*/
 }

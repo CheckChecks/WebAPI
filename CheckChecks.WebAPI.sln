@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckChecks.WebAPI", "Check
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckChecks.WebAPI.Tests", "CheckChecks.WebAPI.Tests\CheckChecks.WebAPI.Tests.csproj", "{73F57173-D658-4496-AD32-3A5B7E2D5C3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CE5704F1-9334-4CD2-A183-E530E4ABD1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckChecks.Model", "CheckChecks.Model\CheckChecks.Model.csproj", "{18FBD477-83E3-476B-A60F-18F6079FD8CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{73F57173-D658-4496-AD32-3A5B7E2D5C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F57173-D658-4496-AD32-3A5B7E2D5C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F57173-D658-4496-AD32-3A5B7E2D5C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FBD477-83E3-476B-A60F-18F6079FD8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FBD477-83E3-476B-A60F-18F6079FD8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FBD477-83E3-476B-A60F-18F6079FD8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FBD477-83E3-476B-A60F-18F6079FD8CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73F57173-D658-4496-AD32-3A5B7E2D5C3C} = {CE5704F1-9334-4CD2-A183-E530E4ABD1E0}
 	EndGlobalSection
 EndGlobal
